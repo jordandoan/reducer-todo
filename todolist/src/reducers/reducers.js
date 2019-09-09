@@ -12,7 +12,6 @@ const reducer = (state,action) => {
       return newState
     case 'CLEAR_COMPLETED':
       return state.filter(task => !task.completed)
-    
     default:
       return state;
   }
