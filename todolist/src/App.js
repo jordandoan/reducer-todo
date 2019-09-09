@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="container">
       <Form dispatcher={dispatcher} />
-      <List list={list} />
+      <List dispatcher={dispatcher} list={list} />
     </div>
   );
 }
