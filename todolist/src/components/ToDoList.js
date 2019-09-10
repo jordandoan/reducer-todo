@@ -19,11 +19,12 @@ const List = ({ list, dispatcher }) => {
     })
   }, [list])
   return (
-    <div>
+    <div className="list-container">
+      <h2>Tasks</h2>
       {list.map(task => 
         <div className='task' value={task.completed}>
           <p>{task.item}</p>
-          <button onClick={(e) => handleClick(e, task)}>Complete Task</button>
+          <button className="clear" onClick={(e) => handleClick(e, task)}>Complete Task</button>
         </div>
       )}
     </div>

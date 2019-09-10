@@ -23,8 +23,8 @@ const Form = ({ dispatcher }) => {
       <h2>Task Form</h2>
       <div className='form'>
         <input type="text" placeholder="task description" onKeyDown={(e) => handleEnter(e)} value={task} onChange={(e) => handleChange(e)}/>
-        <button onClick={handleSubmit}>Add Task</button>
-        <button onClick={handleRemove}>Clear Completed</button>
+        <button className="clear" onClick={handleSubmit}>Add Task</button>
+        <button className="submit" onClick={handleRemove}>Clear Completed</button>
       </div>
     </div>
   )
