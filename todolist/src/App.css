@@ -1,0 +1,53 @@
+.container {
+  display: flex;
+  justify-content: center;
+  width: 60%;
+  margin: 3% auto 10% auto; 
+}
+.form-container {
+  width: 30%;
+  border: 1px solid blue;
+  height: 500px;
+  padding-top:100px;
+  text-align:center;
+}
+
+.list-container {
+  border: 1px solid green;
+  width: 30%;
+  margin: 0 10px;
+  padding: 0 20px;
+}
+
+.task {
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: 0 0 5px 0px green;
+  margin: 5px;
+  padding: 10px;
+}
+
+input {
+  display:block;
+  margin:auto;
+  border-radius:5px;
+  height: 110%;
+}
+
+.completed {
+  color:red;
+}
+
+.clear {
+  background-color: red;
+  padding: 5px 20px;
+  border: 0;
+  margin: 5px;
+  box-shadow: 0 0 3px 0px black;
+}
+.submit {
+  background-color:lightgreen;
+  padding: 5px 20px;
+  border: 0;
+  box-shadow: 0 0 3px 0px black;
+}
